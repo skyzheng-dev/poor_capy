@@ -7,6 +7,7 @@
 body {
     background-color: rgb(120, 204, 151);
     height: 100vh;
+    width: 175vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -83,7 +84,7 @@ body {
 
 .capy {
     position: absolute;
-    bottom:150px; /* lowest 770px*/
+    bottom:130px; /* lowest 770px*/
     left:815px; /* left = 255px, right = 1380px */
     transition: bottom 0.1s ease-out, left 0.1s ease-out;
 }
